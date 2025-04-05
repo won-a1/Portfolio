@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Shireena</a>
+
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="home">
+    <div class="home-content">
+      <h3>Hello, I'm Shireena</h3>
+      <h3>I'm a <span class="text"></span></h3>
+      <div class="home-sci">
+        <a href="https://wa.me/917988254525"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://www.instagram.com/xxi.__a"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/pshireena/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/won-a1"><i class='bx bxl-github' ></i></a>
+      </div>
+      <a href="https://drive.google.com/file/d/1K7IS98LBrLKm_thyLvXbf8FfW2Bz9ZrN/view?usp=sharing" class="btn-box">View My CV</a>
+    </div>
+    <span class="home-imgHover"></span>
+  </section>
+
+  <section class="about" id="about">
+      <div class="about-img">
+        <img src="3.png">
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <p>I'm a Web Developer and UI/UX Designer passionate about creating seamless digital experiences. With expertise in HTML, CSS, JavaScript, React, and design tools like Figma and Adobe XD, I build intuitive, visually appealing interfaces. I love solving complex problems and transforming ideas into user-friendly solutions. Always eager to learn and innovate, I strive to craft engaging and functional web experiences. Let's create something amazing together!</p>
+      </div>
+  </section>
+
+  <section>
+    <div class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list">
+          <div>
+            <i class='bx bx-code' style='color:#9c3caf'  ></i>
+            <h2> Web Design & Development</h2>
+            <p>I craft modern, responsive websites with clean code and an intuitive user experience. My designs focus on aesthetics, speed, and functionality to ensure an engaging digital presence.</p>
+            
+          </div>
+
+          <div>
+            <i class='bx bx-crop' style='color:#9c3caf'></i>
+            <h2>UI/UX Prototyping</h2>
+            <p>I design interactive prototypes using tools like Figma and Adobe XD, turning ideas into user-friendly experiences. My focus is on usability, accessibility, and seamless navigation</p>
+            
+          </div>
+
+          <div>
+            <i class='bx bx-pen' style='color:#9c3caf'  ></i>
+            <h2>Graphic Design & Visual Branding</h2>
+            <p>I craft eye-catching graphics, logos, and brand identities that help businesses stand out. My designs combine creativity with a strong focus on brand consistency and user engagement.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section>
+  <div class="work" id="work">
+    <div class="container">
+        <h1 class="sub-title">My <span>Work</span></h1>
+        <div class="work-list">
+          <div>
+            <img src="img1.jpg">
+            <h2>Finance Tracker</h2>
+            <p>The Finance Tracker App helps users manage income, expenses, and budgets with an intuitive dashboard, interactive charts, and easy transaction tracking designed with Figma</p>
+            <a href="https://www.figma.com/design/NHZROiDa7Zaowdakvf0hKD/FINANCE-TRACKER?t=hK8UQQVugiPJXSFv-1" class="learn">Learn more</a>
+          </div>
+
+          <div>
+            <img src="img2.jpg">
+            <h2>Music App</h2>
+            <p>A web-based music player built with HTML, CSS, and JavaScript, featuring interactive playlists and seamless audio controls.</p>
+            <a href="https://github.com/won-a1/M_usic" class="learn">Learn more</a>
+          </div>
+
+          <div>
+            <img src="img3.jpg">
+            <h2>Android Object Detection</h2>
+            <p>Android object detection identifies and classifies objects in images or live camera feeds using ML models like TensorFlow, Keras or ML Kit.</p>
+            <a href="https://github.com/won-a1/Android-object-detection" class="learn">Learn more</a>
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="contact" id="contact">
+  <div class="contact-text">
+    <h2>Contact <span>Me</span></h2>
+    <h4>Let's connect!</h4>
+    <p>Got an idea, a project, or just want to say hello? I'm always open to new opportunities and collaborations! I'd love to chat.</p>
+    
+    <div class="contact-icons">
+      <a href="https://wa.me/917988254525"><i class='bx bxl-whatsapp'></i></a>
+      <a href="https://www.instagram.com/xxi.__a"><i class='bx bxl-instagram'></i></a>
+      <a href="https://www.linkedin.com/in/pshireena/"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/won-a1"><i class='bx bxl-github' ></i></a>
+    </div>
+  </div>
+  
+  <div class="contact-form">
+    <form action="https://formspree.io/f/xjkyaoql" method="POST">
+      <input type="name" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+
+      
+      <textarea name="message" id="" cols="40" rows="10" placeholder="Message.." required></textarea>
+      <input type="submit" name="submit" value="submit" class="send">
+    </form>
+  </div>
+
+</section>
+
+<div class="last">
+  <p>Developed with love ~ Shireena</p>
+</div>
+
+
+<script src="style.js"></script>
+</body>
+</html>
